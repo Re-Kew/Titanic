@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161b33;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.Search {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.SearchBlock {
+  border-radius: 20px;
+  width: 600px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161b33;
+  -webkit-box-shadow: 6px 6px 12px #191f3b, -6px -6px 12px #13172b;
+  box-shadow: 6px 6px 12px #1a203d, -6px -6px 12px #121629;
+}
+
+input {
+  height: 100%;
+  color: rgb(212, 212, 212);
+  font-size: 20px;
+  margin-left: 10px;
+  width: 100%;
+  border: none;
+  background: none;
+}
+
+input :active,
+:hover,
+:focus {
+  color: #fff;
+  outline: none;
+  outline-offset: none;
+}
+
+.SearchBlock svg {
+  margin-left: 10px;
+}
+
+.list {
+  font-family: "Julius Sans One", sans-serif;
+  width: 90%;
+  margin: auto;
+}
+
+table {
+  font-family: "Iceland", cursive;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+}
+table thead tr {
+  height: 50px;
+  background: #1a203d;
+}
+table td {
+  padding: 0 20px 0 20px;
+}
+
+table thead tr th {
+  height: 50px;
+  border: 1px solid #2a3153;
+}
+table tbody tr td {
+  height: 40px;
+  border: 1px solid #2a3153;
+}
+table tbody tr:hover {
+  background: #1a203d;
+}
+
+.true {
+  color: #00ff4078;
+}
+
+.false {
+
+  color: #f74848cb;
+}
+
+
+.hide{
+display: none;
+}
